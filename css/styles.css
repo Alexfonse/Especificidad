@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.caja1{
+    height: 80vh;
+}
+
+h1{
+    text-align: center;
+}
+
+.container .caja2 {
+    left: 50vw; /* Este estilo se aplicará solo dentro de .container */
+}
+
+.caja2{
+    position: relative;
+    left: 45vw;
+    height: 100vh;
+}
+
+.caja3{
+    position: relative;
+    top: 25vh;
+    left: 30vw;
+    height: 30vh;
+}
